@@ -1,0 +1,96 @@
+---
+layout: post
+title: Custom Jeep Hardtop Lift
+---
+
+## Custom Jeep Hardtop Lift ##
+
+When I bought my Jeep, I immediately started shopping for a hoist system to help me lift the hardtop off.  Two people can easily remove the top - however, I wanted a way to do it myself.  Also, I didn't want the hardtop taking up any floor space.
+
+There are certainly hoist packages out there you can buy - one in particular was around $400 for an electric hoist and a cheap metal frame to provide 4 lifting points on the top.  After some digging around online, I realized just an electric hoist can be purchased by itself for only around $150.  So, I opted to just pick up the hoist and build a custom cable & pulley system in my garage.
+
+I came across [this post](http://panofish.net/garage-trailer-lift/) and knew immediately that I wanted something like it.  Many thanks to Alan at [panofish.net](http://panofish.net/) for posting an awesome design.
+
+Here is a quick video of the lift in action:
+
+<iframe style="margin-top:1em" width="560" height="315" src="https://www.youtube.com/embed/QvIniNA2jFU" frameborder="0" allowfullscreen></iframe>
+
+... and another video of just the hoist
+
+<iframe style="margin-top:1em" width="560" height="315" src="https://www.youtube.com/embed/D-BLQl8lS-U" frameborder="0" allowfullscreen></iframe>
+
+The hoist and pulleys are mounted in the attic above the garage - the controller to the hoist hangs from the ceiling just at arms length...high enough so you don't hit your head on it walking by.
+
+![alt text][preview_lift_1]
+![alt text][preview_lift_2]
+
+Since the hoist cabling runs horizontally (due to lack of overhead space in the attic), the 'draw' of the cables happens on this slide - which is just 1/4 flooring underlayment
+
+![alt text][preview_lift_3]
+
+I built the entire structure up from the rafters using 2x8's so the cables would recess into the ceiling - that way they are not dangling in the garage when not in use.  Most pieces that would take any load use lag bolts (e.g. the pulleys, the hoist).
+
+![alt text][preview_lift_4]
+
+To prevent the cables from wrecking the drywall on the ceiling, I used a 1 foot section of 3" PVC pipe and a bushing (or reducer to act as the trim piece in the garage.  A 3 1/2 hole-saw worked great to cut the holes in the drywall and a pipe strap was used to fasten the PVC pipes vertically to the rafters.
+
+![alt text][preview_lift_5]
+![alt text][preview_lift_6]
+
+I did use a small piece of 1" electrical conduit through the drywall as well to run the wire to the hoist controller through.
+
+Also, note the 1 foot heavy chain at the end of each cable - I needed a counter weight so the cables would come down when the hoist was lowered when the Jeep top was not hooked on it.
+
+![alt text][preview_lift_9]
+
+### Measurements ###
+For anyone interested, here's a rudimentary sketch of the design (overhead view).  It took me a while to come up with where to place the 4 holes to line up with back window of the hard top and the sides.  The picture tries to illustrate the 'draw' of the 4 lines to the pulleys and back to each individual drop point.  Draw distance would depend on your ceiling height (mine is about 10 feet).  Measurements shown are the distances from the hole centers - or, at least where I think they should be ... mine are a tad off and I may move the back holes a couple of inches **:-(**
+
+![alt text][sketch]
+
+
+### Materials Used ###
+
+Here's a rough list anyway
+
+* Electric Hoist (I picked [this one](http://www.northerntool.com/shop/tools/product_420551_420551) up at Northern Tool ... double-line 1100 lb load limit)
+* Several 8' 2x8s
+* Couple 8' 2x4s
+* 1 - 8' 4x4
+* Approximately 75 feet of steel wire (I used 1/8 diameter which has a load limit of 320lb)
+* 8 - 1/8 steel wire thimbles
+* 24 - 1/8 steel wire saddles (3 per end of the 4 lines - [never saddle a dead horse](http://www.e-rigging.com/wire-rope-clips#Wire%20Rope_Clip_General_Installation_Guide))  
+* 1 - 4 foot length 3" PVC (cut into 4 1-foot lengths)
+* 4 - pipe straps for 3" PVC
+* 4 - PVC Bushings or reducers (used as the trim pieces around the holes in the ceiling)
+* 8 - wall mount pulleys (I used [these 2" ones](http://www.hardwareworld.com/Single-Pulley~Wall-or-ceiling-mount-2-pIRU8TK.aspx))
+* 1 - heavy duty shackle (to connect the 4 lines to the hoist)
+* 1 - 4 foot length heavy chain, I think mine is Grade 70 (cut into 4 1-foot lengths, I used a Dremel with a metal cut-off wheel)
+* Various screws, lag bolts
+* 2 - 5' lift slings (or strong rope) to loop under hardtop and connect to hoist lines.  5-foot slings are hard to find, 4 & 6-foot lengths are readily available - but the 4's were too short and the 6's were a bit too long.  I found [these](http://www.grainger.com/product/STREN-FLEX-Web-Sling-WP102167/_/N-1z0dxpl?s_pp=false&picUrl=//static.grainger.com/rp/s/is/image/Grainger/25J845_AS01?$smthumb$#nav=%2Fproduct%2FSTREN-FLEX-Web-Sling-WP102167%2F_%2FN-muhZ1z0dxplZ1z0ndtrZ1z08cb8Z1z0nmq0%3FR%3D30G898%26_%3D1433516602219%26picUrl%3D%252F%252Fstatic.grainger.com%252Frp%252Fs%252Fis%252Fimage%252FGrainger%252F25J845_AS01%253F%2524smthumb%2524%26s_pp%3Dfalse) 5' slings on Grainger.
+
+
+### Safety Warning ###
+While not pictured above, I use 4 eyebolts in the ceiling with ratchet straps to help secure the top after its lifted off.  A typical Jeep top only weighs around 130 pounds .. I can't recommend a lift like this for any serious loads.
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-7922296-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+[preview_lift_1]: http://drive.google.com/uc?id=0B-gNLYtLbOx9cjJ3NWppT0RHMmM "Hoist Top"
+[preview_lift_2]: http://drive.google.com/uc?id=0B-gNLYtLbOx9WDdNNEtMaUxJTWs "Hoist Back"
+[preview_lift_3]: http://drive.google.com/uc?id=0B-gNLYtLbOx9MW1YQWZUTk5fZU0 "Cable Slide"
+[preview_lift_4]: http://drive.google.com/uc?id=0B-gNLYtLbOx9RlRZV1RaWTVMc3M "Structure"
+[preview_lift_5]: http://drive.google.com/uc?id=0B-gNLYtLbOx9VmFxbEtyTF9qeVk "PVC"
+[preview_lift_6]: http://drive.google.com/uc?id=0B-gNLYtLbOx9UDJ2RGFvWmw5N1U "Finished Side"
+[preview_lift_9]: http://drive.google.com/uc?id=0B-gNLYtLbOx9bTJTQ3g3bEtuZ3M "With top"
+
+[sketch]: http://drive.google.com/uc?id=0B-gNLYtLbOx9NmlqR1REcXFNa2s "Diagram"
