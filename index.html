@@ -4,7 +4,10 @@ title: Greg Wessels
 ---
 
 <h3>Greg Wessels</h3>
+
 <h3>Posts</h3>
-<ul>
-<li><a href="/2015/jeep-lift.html">Custom lift for Jeep hardtop</a></li>
+<ul class="posts">
+    {% for post in site.posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
 </ul>
