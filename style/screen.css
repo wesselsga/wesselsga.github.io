@@ -22,9 +22,6 @@ body {
   line-height: 1.5;
   color: #333;
   background-color: #fff;
-  padding: 20px;
-  max-width: 960px;
-  margin: 0 auto;
 }
 
 body>*:first-child {
@@ -33,6 +30,22 @@ body>*:first-child {
 
 body>*:last-child {
   margin-bottom: 0 !important;
+}
+
+#mast
+{
+  position:absolute:
+  top:0px;
+  left:0px;
+  background:#404040;
+  height:32px;
+}
+
+#page
+{
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 /* BLOCKS
