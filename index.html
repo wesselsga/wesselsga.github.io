@@ -3,9 +3,13 @@ layout: default
 title: Greg Wessels
 ---
 
-<h3>Posts</h3>
+{% for category in site.categories %}
+<h3>{{ category | first }}</h3>
 <ul>
-    {% for post in site.posts %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
+{% for posts in category %}
+{% for post in posts %}
+	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+{% endfor %}
+</ul>	
+{% endfor %}
