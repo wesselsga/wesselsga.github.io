@@ -8,11 +8,11 @@ category: Dev
 
 My personal scratch pad for ffmpeg tasks that I use.  Seems like everytime I need to convert some video...I end up googling for the same thing over and over again.
 
-### Concatenate (Combine) Videos ###
+## Concatenate (Combine) Videos ##
 Got a bunch of videos from an iPhone or iPad?  I use this one for kids sports ... frequent start/stop recordings of a game will (annoyingly) create several video files.
 I often just want 1 larger video file to upload to YouTube or archive.
 
-Create a text file in the same directory as your videos, something like the following:
+To give ffmpeg the list of videos to combine, create a text file in the same directory as your videos - something like the following:
 
 ```Batchfile
 file 'IMG_0051.MOV'
@@ -26,7 +26,7 @@ file 'IMG_0058.MOV'
 file 'IMG_0059.MOV'
 ```
 
-If the above text file is named something like `04MAR2017_BB_Game.txt`, then the following ffmpeg command can be used to combine the individual MOV files into a single (larger) video file:
+If the above text file is named `04MAR2017_BB_Game.txt`, then the following ffmpeg command can be used to combine the individual MOV files into a single (larger) video file:
 
 ```Batchfile
 ffmpeg -f concat -safe 0 -i 04MAR2017_BB_Game.txt -c copy 04MAR2017_BB_Game.mov

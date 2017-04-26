@@ -3,7 +3,8 @@ layout: default
 title: Greg Wessels
 ---
 
-{% for category in site.categories %}
+{% assign sorted_cats = site.categories | sort %}
+{% for category in sorted_cats %}
 <h3>{{ category | first }}</h3>
 <ul>
 {% for posts in category %}
