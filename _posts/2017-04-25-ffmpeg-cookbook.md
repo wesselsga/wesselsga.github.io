@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Custom Jeep Hardtop Lift
+title: FFmpeg Cookbook
 category: Dev
 ---
 
@@ -26,7 +26,7 @@ file 'IMG_0057.MOV'
 file 'IMG_0058.MOV'
 file 'IMG_0059.MOV'
 
-If the above named text file is named something like 04MAR2017_BB_Game.txt, then the following ffmpeg command can be used to combine the individual MOV files into a single (larger) video file:
+If the above text file is named something like 04MAR2017_BB_Game.txt, then the following ffmpeg command can be used to combine the individual MOV files into a single (larger) video file:
 
 ffmpeg -f concat -safe 0 -i 04MAR2017_BB_Game.txt -c copy 04MAR2017_BB_Game.mov
 
