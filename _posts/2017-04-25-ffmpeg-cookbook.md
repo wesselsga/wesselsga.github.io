@@ -74,17 +74,15 @@ The following will dump all frames from the input video file into a subdirectory
 ffmpeg -i "input-video" -an -f image2 "frames/frame_%05d.png"
 ```
 
-Note: if using a Windows .bat file, you will need to escape the %
-
-```Batchfile
-ffmpeg -i "input-video" -an -f image2 "frames/frame_%%05d.png"
-```
+Note: if using a Windows .bat file, you will need to escape the %, so the above pattern would be `frame_%%05d.png` in a .bat file
 
 ---
 
 ### 7. Create a video from a directory of PNG images ###
 
-To create a video from a directory of images, the image files will need to be named with a pattern.  The following will create a video file at 60fps from a series of still images:
+To create a video from a directory of images, the image files will need to be named with a pattern.  
+
+The following will create a video file at 60fps from a series of still images:
 
 ```Batchfile
 ffmpeg -r 60 -f image2 -i "frames/frame_%%05d.png" -c:v libx264 -crf 18 -pix_fmt yuv420p "output.mp4"
