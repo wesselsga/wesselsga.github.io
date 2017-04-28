@@ -42,9 +42,9 @@ ffmpeg -i "input-video" -c:v rawvideo -pix_fmt bgra "output.avi"
 
 ---
 
-### 4. Convert several videos in a directory to another format (Windows batch) ###
+### 4. Convert several videos in a directory to another format ###
 
-The following searches for all .avi files in a directory and converts them to H.264 in an MP4 container.
+The following searches for all .avi files in a directory and converts them to H.264 in an MP4 container. (Windows .BAT file)
 
 ```Batchfile
 @echo off
