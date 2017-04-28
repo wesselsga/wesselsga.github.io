@@ -8,21 +8,29 @@ category: Dev
 
 My personal scratch pad for ffmpeg tasks that I use.  Seems like everytime I need to convert some video...I end up googling for the same thing over and over again.
 
-## 1. Convert a video to H.264 (in MP4) ##
+### 1. Convert a video to H.264 (in MP4) ###
 When creating a H.264 video file, there are a ton of options available - but this is a quick and dirty MP4 version.
 
 ```Batchfile
 ffmpeg -i "input-video" -c:v libx264 -crf 18 -pix_fmt yuv420p "output.mp4"
 ```
 
-## 2. Convert a video to H.264 (in MOV) ##
+### 2. Convert a video to H.264 (in MOV) ###
 Pretty much the same deal as #1, but use an MOV container and mark it as 'fast start'. (faststart moves the MOOV atom to the beginning of the file vs. the end ... better for streaming)
 
 ```Batchfile
 ffmpeg -i "input-video" -c:v libx264 -crf 18 -pix_fmt yuv420p -movflags +faststart "output.mov"
 ```
 
-## 3. Convert a entire directory of video files to another format (Windows batch) ##
+### 3. Convert a video to uncompressed AVI ###
+Not nearly as useful, but there are times when I need a video in an uncompressed format.
+
+```Batchfile
+ffmpeg -i "input-video" -c:v rawvideo -pix_fmt bgr24 "output.avi"
+```
+
+
+### 4. Convert a entire directory of video files to another format (Windows batch) ###
 
 The following searches for all .avi files in a directory and converts them to H.264 in an MP4 container.
 
@@ -35,7 +43,7 @@ ffmpeg -i "%%~nxf" -c:v libx264 -crf 18 -pix_fmt yuv420p "%%~nf.mp4"
 ```
 
 
-## 4. Concatenate (or Combine) Videos ##
+### 5. Concatenate (or Combine) Videos ###
 Got a bunch of videos from an phone or iPad?  I use this one for kids sports ... frequent hitting of start & stop record during a game will create several video files.
 I often just want 1 larger video file of the game to upload to YouTube or archive.
 
