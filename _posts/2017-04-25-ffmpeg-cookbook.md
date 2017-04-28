@@ -33,6 +33,13 @@ Not nearly as useful as the H.264 version, but there are times when I need a vid
 ffmpeg -i "input-video" -c:v rawvideo -pix_fmt bgr24 "output.avi"
 ```
 
+If the source has an alpha channel - use a pixel format such as bgra to preserve it.
+
+```Batchfile
+ffmpeg -i "input-video" -c:v rawvideo -pix_fmt bgra "output.avi"
+```
+
+
 ---
 
 ### 4. Convert several videos in a directory to another format (Windows batch) ###
@@ -49,7 +56,17 @@ ffmpeg -i "%%~nxf" -c:v libx264 -crf 18 -pix_fmt yuv420p "%%~nf.mp4"
 
 ---
 
-### 5. Concatenate (or Combine) Videos ###
+### 5. Trim an existing MP4 video ###
+
+For example, to slice out part of an existing mp4 video - starting at the 1 minute mark and grab 30 seconds:
+
+```Batchfile
+ffmpeg -ss 00:01:00 -i "input-video.mp4" -t 30 -c copy -avoid_negative_ts 1 -y output.mp4
+```
+
+---
+
+### 6. Concatenate (or Combine) Videos ###
 Got a bunch of videos from an phone or iPad?  I use this one for kids sports ... frequent hitting of start & stop record during a game will create several video files.
 I often just want 1 larger video file of the game to upload to YouTube or archive.
 
