@@ -66,7 +66,7 @@ ffmpeg -ss 00:01:00 -i "input-video.mp4" -t 30 -c copy -avoid_negative_ts 1 -y o
 
 ---
 
-### 6. Extract all video frames as PNG images ###
+### 6. Extract all video frames as images ###
 
 The following will dump all frames from the input video file into a subdirectory called 'frames' (in this example PNG is used; but JPG would also work)
 
@@ -78,7 +78,7 @@ Note: if using a Windows .bat file, you will need to escape the %, so the above 
 
 ---
 
-### 7. Create a video from a directory of PNG images ###
+### 7. Create a video from a directory of images ###
 
 To create a video from a directory of images, the image files will need to be named with a pattern.  
 
