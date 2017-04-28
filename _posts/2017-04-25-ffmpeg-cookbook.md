@@ -90,8 +90,17 @@ ffmpeg -r 60 -f image2 -i "frames/frame_%%05d.png" -c:v libx264 -crf 18 -pix_fmt
 
 ---
 
+### 8. Extract audio track from a video file ###
 
-### 8. Concatenate (or Combine) Videos ###
+If you wish to grab just the audio track from a source and encode it as MP3:
+
+```Batchfile
+ffmpeg -i "input-video" -vn -codec:a libmp3lame -b:a 256K "output.mp3"
+```
+
+---
+
+### 9. Concatenate (or Combine) Videos ###
 Got a bunch of videos from an phone or iPad?  I use this one for kids sports ... frequent hitting of start & stop record during a game will create several video files.
 I often just want 1 larger video file of the game to upload to YouTube or archive.
 
