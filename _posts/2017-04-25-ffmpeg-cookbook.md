@@ -66,7 +66,40 @@ ffmpeg -ss 00:01:00 -i "input-video.mp4" -t 30 -c copy -avoid_negative_ts 1 -y o
 
 ---
 
-### 6. Concatenate (or Combine) Videos ###
+### 6. Extract all video frames as PNG images ###
+
+The following will dump all frames from the input video file into a subdirectory called 'frames' (in this example PNG is used; but JPG would also work)
+
+```Batchfile
+ffmpeg -i "input-video" -an -f image2 "frames/frame_%05d.png"
+```
+
+Note: if using a Windows .bat file, you will need to escape the %
+
+```Batchfile
+ffmpeg -i "input-video" -an -f image2 "frames/frame_%%05d.png"
+```
+
+---
+
+### 7. Create a video from a directory of PNG images ###
+
+The following will dump all frames from the input video file into a subdirectory called 'frames'
+
+```Batchfile
+ffmpeg -i "input-video" -an -f image2 "frames/frame_%05d.png"
+```
+
+Note: if using a Windows .bat file, you will need to escape the % (e.g. frame_%%05d):
+
+```Batchfile
+ffmpeg -i "input-video" -an -f image2 "frames/frame_%%05d.png"
+```
+
+---
+
+
+### 8. Concatenate (or Combine) Videos ###
 Got a bunch of videos from an phone or iPad?  I use this one for kids sports ... frequent hitting of start & stop record during a game will create several video files.
 I often just want 1 larger video file of the game to upload to YouTube or archive.
 
