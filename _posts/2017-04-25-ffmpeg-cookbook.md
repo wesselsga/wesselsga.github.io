@@ -15,6 +15,7 @@ When creating a H.264 video file, there are a ton of options available - but thi
 ffmpeg -i "input-video" -c:v libx264 -crf 18 -pix_fmt yuv420p "output.mp4"
 ```
 
+---
 
 ### 2. Convert a video to H.264 (in MOV) ###
 Pretty much the same as #1, but use an MOV container and mark it as 'fast start'. (faststart moves the MOOV atom to the beginning of the file versus. the end - better for streaming)
