@@ -15,22 +15,24 @@ When creating a H.264 video file, there are a ton of options available - but thi
 ffmpeg -i "input-video" -c:v libx264 -crf 18 -pix_fmt yuv420p "output.mp4"
 ```
 
+
 ### 2. Convert a video to H.264 (in MOV) ###
-Pretty much the same deal as #1, but use an MOV container and mark it as 'fast start'. (faststart moves the MOOV atom to the beginning of the file vs. the end ... better for streaming)
+Pretty much the same as #1, but use an MOV container and mark it as 'fast start'. (faststart moves the MOOV atom to the beginning of the file versus. the end - better for streaming)
 
 ```Batchfile
 ffmpeg -i "input-video" -c:v libx264 -crf 18 -pix_fmt yuv420p -movflags +faststart "output.mov"
 ```
 
+
 ### 3. Convert a video to uncompressed AVI ###
-Not nearly as useful, but there are times when I need a video in an uncompressed format.
+Not nearly as useful as the H.264 version, but there are times when I need a video in an uncompressed format.
 
 ```Batchfile
 ffmpeg -i "input-video" -c:v rawvideo -pix_fmt bgr24 "output.avi"
 ```
 
 
-### 4. Convert a entire directory of video files to another format (Windows batch) ###
+### 4. Convert several videos in a directory to another format (Windows batch) ###
 
 The following searches for all .avi files in a directory and converts them to H.264 in an MP4 container.
 
