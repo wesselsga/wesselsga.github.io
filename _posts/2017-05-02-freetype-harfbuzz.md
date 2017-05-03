@@ -53,8 +53,8 @@ Set the value of both defines to `__declspec(dllexport) x`
 #define FT_EXPORT_DEF(x)  __declspec(dllexport) x
 ```
 <br/>
-#### Build the Solution ####
-When complete, you should end up with a freetype.dll and freetype.lib in the **objs/vc2010/x64** subfolder.
+#### Ready to build ####
+Build the solution - when complete, you should end up with a freetype.dll and freetype.lib in the **objs/vc2010/x64** subfolder.
 
 Now, we can use the .lib and headers from freetype to build the harfbuzz DLL for text shaping.  
 
