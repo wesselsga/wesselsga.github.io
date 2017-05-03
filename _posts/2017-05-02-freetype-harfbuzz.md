@@ -24,6 +24,7 @@ Change the Configuration Type from Static Library to **Dynamic Library (.dll)** 
 
 <br/>
 ![alt text][freetype_1]
+
 <br/>
 Open the `ftoption.h` header file and find the defines for `FT_EXPORT` and `FT_EXPORT_DEF` - they are probably commented out.  
 
