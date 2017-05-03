@@ -18,7 +18,7 @@ Open **builds/windows/vc2010/freetype.sln** in Visual Studio 2017.  Hit OK when 
 
 Select **Release Multithreaded** for the Configuration, and **x64** for the platform.  If you want to link dynamically to the CRT, select **Release** for the Configuration.
 
-Select **Project | freetype Properties ...** from the menu.  Make sure your configuration (Release Multithreaded) and platform (x64) are selected.
+Select **Project | freetype Properties ... ** from the menu.  Make sure your configuration (Release Multithreaded) and platform (x64) are selected.
 
 Change the Configuration Type from Static Library to **Dynamic Library (.dll)** and change the Target Name to **freetype** as highlighted below:
 
@@ -26,7 +26,7 @@ Change the Configuration Type from Static Library to **Dynamic Library (.dll)** 
 
 Open the `ftoption.h` header file and find the defines for `FT_EXPORT` and `FT_EXPORT_DEF`, they are probably commented out.  
 
-Set the value of both defines to `__declspec(dllexport) x`:
+Set the value of both defines to `__declspec(dllexport) x`
 
 ```C
 /*************************************************************************/
@@ -51,8 +51,8 @@ Set the value of both defines to `__declspec(dllexport) x`:
 #define FT_EXPORT_DEF(x)  __declspec(dllexport) x
 ```
 
-Build the Solution.  When complete, you should end up with a freetype.dll and freetype.lib in the **objs/vc2010/x64** subfolder.
-
+####Build the Solution####
+When complete, you should end up with a freetype.dll and freetype.lib in the **objs/vc2010/x64** subfolder.
 
 [freetype_1]: https://s3.amazonaws.com/gregwessels/posts/2017/freetype-vc.jpg "FreeType VC Project Settings"
 
