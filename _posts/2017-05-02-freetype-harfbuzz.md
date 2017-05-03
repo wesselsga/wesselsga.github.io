@@ -12,15 +12,15 @@ For the following I'm using Visual Studio 2017 Community Edition.
 
 ### Build FreeType DLL ###
 
-Download the source code for FreeType2.  At the time of this writing, the version I'm using is 2.7.1.
+1. Download the source code for FreeType2.  At the time of this writing, the version I'm using is 2.7.1.
 
-Open **builds/windows/vc2010/freetype.sln** in Visual Studio 2017.  Hit OK when asked to Retarget Projects to the newer compiler.
+2. Open **builds/windows/vc2010/freetype.sln** in Visual Studio 2017.  Hit OK when asked to Retarget Projects to the newer compiler.
 
-Select **Release Multithreaded** for the Configuration, and **x64** for the platform.  If you want to link dynamically to the CRT, select **Release** for the Configuration.
+3. Select **Release Multithreaded** for the Configuration, and **x64** for the platform.  If you want to link dynamically to the CRT, select **Release** for the Configuration.
 
-Select **Project -> freetype Properties** from the menu.  Make sure your configuration (Release Multithreaded) and platform (x64) are selected.
+4. Select **Project -> freetype Properties** from the menu.  Make sure your configuration (Release Multithreaded) and platform (x64) are selected.
 
-Change the Configuration Type from Static Library to **Dynamic Library (.dll)** and change the Target Name to **freetype** as highlighted below:
+5. Change the Configuration Type from Static Library to **Dynamic Library (.dll)** and change the Target Name to **freetype** as highlighted below:
 
 <br/>
 ![alt text][freetype_1]
