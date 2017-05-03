@@ -18,7 +18,7 @@ Open **builds/windows/vc2010/freetype.sln** in Visual Studio 2017.  Hit OK when 
 
 Select **Release Multithreaded** for the Configuration, and **x64** for the platform.  If you want to link dynamically to the CRT, select **Release** for the Configuration.
 
-Select **Project | freetype Properties ... ** from the menu.  Make sure your configuration (Release Multithreaded) and platform (x64) are selected.
+Select **Project -> freetype Properties ... ** from the menu.  Make sure your configuration (Release Multithreaded) and platform (x64) are selected.
 
 Change the Configuration Type from Static Library to **Dynamic Library (.dll)** and change the Target Name to **freetype** as highlighted below:
 
