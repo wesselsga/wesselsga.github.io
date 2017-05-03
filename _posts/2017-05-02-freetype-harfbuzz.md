@@ -89,13 +89,13 @@ CFLAGS_ADD = /MDd /Od
 ...
 ```
 
-Change the `/MD` and /MDd above to `/MT` and `/MTd` respectively.
+Change the `/MD` and `/MDd` above to `/MT` and `/MTd` respectively.
 
 #### Ready to Build ####
 
 Use the CMD shortcuts installed with Visual Studio to open a command prompt using the x64 Native Tools.
 
-`cd` to the win32 subdirectory in the harfbuzz source tree.
+`cd` to the **win32** subdirectory in the harfbuzz source tree.
 
 Run the following command for nmake: (note: the PREFIX option to use our freetype from above)
 
