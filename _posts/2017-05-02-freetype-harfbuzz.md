@@ -12,7 +12,7 @@ For the following I'm using Visual Studio 2017 Community Edition.
 
 ### Build FreeType DLL ###
 
-Download the source code for FreeType2.  At the time of this writing, the version I'm using is 2.7.1.
+Download the source code for FreeType2.  At the time of this writing, the version is 2.7.1.
 
 Open **builds/windows/vc2010/freetype.sln** in Visual Studio 2017.  Hit OK when asked to Retarget Projects to the newer compiler.
 
