@@ -51,7 +51,7 @@ Set the value of both defines to `__declspec(dllexport) x`
 #define FT_EXPORT_DEF(x)  __declspec(dllexport) x
 ```
 
-####Build the Solution####
+###Build the Solution###
 When complete, you should end up with a freetype.dll and freetype.lib in the **objs/vc2010/x64** subfolder.
 
 [freetype_1]: https://s3.amazonaws.com/gregwessels/posts/2017/freetype-vc.jpg "FreeType VC Project Settings"
