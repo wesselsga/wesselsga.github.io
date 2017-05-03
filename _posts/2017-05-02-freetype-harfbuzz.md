@@ -25,12 +25,11 @@ Change the Configuration Type from Static Library to **Dynamic Library (.dll)** 
 <br/>
 ![alt text][freetype_1]
 <br/>
-
 Open the `ftoption.h` header file and find the defines for `FT_EXPORT` and `FT_EXPORT_DEF` - they are probably commented out.  
 
 Set the value of both defines to `__declspec(dllexport) x`
 
-```C
+```cpp
 /*************************************************************************/
   /*                                                                       */
   /* DLL export compilation                                                */
