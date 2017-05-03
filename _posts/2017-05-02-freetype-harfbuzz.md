@@ -68,7 +68,7 @@ Copy the newly built freetype.lib to **C:\usr\local\lib**
 
 Unfortunately, the Windows build instructions for harfbuzz do not seem to work with the source tree on github.  Instead, use a [release tarball](https://www.freedesktop.org/software/harfbuzz/release/) (I'm using 1.4.6).
 
-If you targeted **Release Multithreaded** in the above steps, then freetype was built with the `/MT` compiler option to statically link to the CRT.  By default, Harfbuzz will use `/MD` - so we'll change that in the **win32/detectenv-msvc.mak** file.  You can skip this step, if you targeted freetype to use '/MD' as well.
+If you targeted **Release Multithreaded** in the above steps, then freetype was built with the `/MT` compiler option to statically link to the CRT.  By default, Harfbuzz will use `/MD` - so we'll change that in the **win32/detectenv-msvc.mak** file.  You can skip this step, if you targeted freetype to use `/MD` as well.
 
 Below is the snippet from detectenv-msvc.mak that we will modify:
 
@@ -97,7 +97,7 @@ Use the CMD shortcuts installed with Visual Studio to open a command prompt usin
 
 `cd` to the **win32** subdirectory in the harfbuzz source tree.
 
-Run the following command for nmake: (note: the PREFIX option to use our freetype from above)
+Run the following command for nmake: (note: the PREFIX option to use our freetype headers+lib from above)
 
 ```Batchfile
 nmake /f Makefile.vc CFG=release PREFIX="c:\usr\local" FREETYPE=1 HARFBUZZ_DLL_FILENAME=release\x64\harfbuzz
