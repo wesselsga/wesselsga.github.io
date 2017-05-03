@@ -26,9 +26,9 @@ For the following I'm using Visual Studio 2017 Community Edition.
 ![alt text][freetype_1]
 
 <br/>
-Open the `ftoption.h` header file and find the defines for `FT_EXPORT` and `FT_EXPORT_DEF` - they are probably commented out.  
+6. Open the `ftoption.h` header file and find the defines for `FT_EXPORT` and `FT_EXPORT_DEF` - they are probably commented out.  
 
-Set the value of both defines to `__declspec(dllexport) x`
+7. Set the value of both defines to `__declspec(dllexport) x`
 
 ```cpp
 /*************************************************************************/
