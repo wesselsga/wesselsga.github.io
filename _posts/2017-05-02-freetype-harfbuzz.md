@@ -56,6 +56,12 @@ Set the value of both defines to `__declspec(dllexport) x`
 #### Build the Solution ####
 When complete, you should end up with a freetype.dll and freetype.lib in the **objs/vc2010/x64** subfolder.
 
+Now, we can use the .lib and headers from freetype to build a harfbuzz DLL for text shaping.  
+
+To build harfbuzz, we'll copy the headers from the **include** folder in the freeimage source distro to the directory **C:\usr\local\include**.  
+
+Copy the newly built freeimage.lib to **C:\usr\local\lib**
+
 ### Build Harfbuzz DLL ###
 
 Coming Soon
