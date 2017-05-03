@@ -22,7 +22,7 @@ Select **Project | freetype Properties ...** from the menu.  Make sure your conf
 
 Change the Configuration Type from Static Library to **Dynamic Library (.dll)** and change the Target Name to **freetype** as highlighted below:
 
-
+![alt text][freetype_1]
 
 Open the `ftoption.h` header file and find the defines for `FT_EXPORT` and `FT_EXPORT_DEF`, they are probably commented out.  
 
@@ -52,4 +52,7 @@ Set the value of both defines to `__declspec(dllexport) x`:
 ```
 
 Build the Solution.  When complete, you should end up with a freetype.dll and freetype.lib in the **objs/vc2010/x64** subfolder.
+
+
+[freetype_1]: https://s3.amazonaws.com/gregwessels/posts/2017/freetype-vc.jpg "FreeType VC Project Settings"
 
