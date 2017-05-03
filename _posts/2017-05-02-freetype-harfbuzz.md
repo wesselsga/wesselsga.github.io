@@ -56,7 +56,7 @@ Set the value of both defines to `__declspec(dllexport) x`
 #### Build the Solution ####
 When complete, you should end up with a freetype.dll and freetype.lib in the **objs/vc2010/x64** subfolder.
 
-Now, we can use the .lib and headers from freetype to build a [harfbuzz](https://www.freedesktop.org/wiki/Software/HarfBuzz/) DLL for text shaping.  
+Now, we can use the .lib and headers from freetype to build the harfbuzz DLL for text shaping.  
 
 ## Build Harfbuzz DLL ##
 
@@ -68,9 +68,12 @@ Copy the newly built freetype.lib to **C:\usr\local\lib**
 
 Unfortunately, the Windows build instructions for harfbuzz do not seem to work with the source tree on github.  Instead, use a [release tarball](https://www.freedesktop.org/software/harfbuzz/release/) (I'm using 1.4.6).
 
-If you targeted **Release Multithreaded** in the above steps, then freetype was built with the `/MT` compiler option to statically link to the CRT.  By default, Harfbuzz will use `/MD` - so we'll change that in the win32/detectenv-msvc.mak file.  You can skipped this step, if you targeted freetype to use '/MD' as well.
+If you targeted **Release Multithreaded** in the above steps, then freetype was built with the `/MT` compiler option to statically link to the CRT.  By default, Harfbuzz will use `/MD` - so we'll change that in the **win32/detectenv-msvc.mak** file.  You can skip this step, if you targeted freetype to use '/MD' as well.
+
+Below is the snippet from detectenv-msvc.mak that we will modify:
 
 ```Batchfile
+...
 # One may change these items, but be sure to test
 # the resulting binaries
 !if "$(CFG)" == "release"
@@ -83,9 +86,12 @@ CFLAGS_ADD = $(CFLAGS_ADD) /d2Zi+
 !else
 CFLAGS_ADD = /MDd /Od
 !endif
+...
 ```
 
 Change the `/MD` and /MDd above to `/MT` and `/MTd` respectively.
+
+#### Ready to Build ####
 
 Use the CMD shortcuts installed with Visual Studio to open a command prompt using the x64 Native Tools.
 
