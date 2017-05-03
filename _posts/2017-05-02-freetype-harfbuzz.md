@@ -12,7 +12,7 @@ For the following I'm using Visual Studio 2017 Community Edition.
 
 ### Build FreeType DLL ###
 
-Download the source code for FreeType2.  At the time of this writing, the version is 2.7.1.
+Download the source code for [FreeType2](https://www.freetype.org/).  At the time of this writing, the version is 2.7.1.
 
 Open **builds/windows/vc2010/freetype.sln** in Visual Studio 2017.  Hit OK when asked to Retarget Projects to the newer compiler.
 
@@ -56,13 +56,13 @@ Set the value of both defines to `__declspec(dllexport) x`
 #### Build the Solution ####
 When complete, you should end up with a freetype.dll and freetype.lib in the **objs/vc2010/x64** subfolder.
 
-Now, we can use the .lib and headers from freetype to build a harfbuzz DLL for text shaping.  
-
-To build harfbuzz, we'll copy the headers from the **include** folder in the freeimage source distro to the directory **C:\usr\local\include**.  
-
-Copy the newly built freeimage.lib to **C:\usr\local\lib**
+Now, we can use the .lib and headers from freetype to build a [harfbuzz](https://www.freedesktop.org/wiki/Software/HarfBuzz/) DLL for text shaping.  
 
 ### Build Harfbuzz DLL ###
+
+To build harfbuzz, we'll copy the headers from the **include** folder in the freetype source distro to the directory **C:\usr\local\include**.  
+
+Copy the newly built freetype.lib to **C:\usr\local\lib**
 
 Coming Soon
 
