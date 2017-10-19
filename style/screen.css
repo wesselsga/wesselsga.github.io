@@ -62,7 +62,6 @@ hr
 
 div.tile
 {
-   padding:1em;
    background:#f4f4f4;
    margin-top:3em;
    overflow:auto;
@@ -72,10 +71,13 @@ div.tile
 div.tile .icon
 {
    text-align:center;
+   padding:1em;
 }
 
 div.tile .summary
 {
+   overflow:auto;
+   padding:1em;
 }
 
 
