@@ -77,13 +77,18 @@ a.tile:link, a.tile:visited, a.tile:hover, a.tile:active  {
 a.tile .icon
 {
    text-align:center;
-   padding:1em;
+   padding:2em;
 }
 
 a.tile .summary
 {
    overflow:auto;
    padding:1em;
+}
+
+a.tile .summary h3
+{
+   margin-top:0;
 }
 
 
