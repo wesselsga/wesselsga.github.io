@@ -20,4 +20,7 @@ ColorLens is a simple Windows utility to simply capture the color of the current
   * `Return` key to accept and copy to clipboard
 * Runs in the background - accessible via System Tray Icon
 
+## System Requirements
+* Windows 7+ 64-bit 
+
 [Download the latest release](https://github.com/wesselsga/colorlens/releases/latest)
