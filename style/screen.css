@@ -67,6 +67,11 @@ a.tile
    overflow:auto;
    float:left;
    display:block;
+   color:#333 !important;
+}
+
+a.tile:link, a.tile:visited, a.tile:hover, a.tile:active  {
+    text-decoration: none;
 }
 
 a.tile .icon
