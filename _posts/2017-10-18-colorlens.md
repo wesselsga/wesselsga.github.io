@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ColorLens
+title: ColorLens : A simple color capture utility
 category: Projects
 ---
 
