@@ -63,7 +63,7 @@ hr
 div.tile
 {
    padding:1em;
-   background:#f2f2f2;
+   background:#f4f4f4;
    margin-top:3em;
    overflow:auto;
 }
@@ -76,6 +76,7 @@ div.tile .icon
 div.tile .summary
 {
    float:left;
+   margin-left:2em;
 }
 
 
