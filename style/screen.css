@@ -60,21 +60,22 @@ hr
 	border-top:2px solid #eee;
 }
 
-div.tile
+a.tile
 {
    background:#f4f4f4;
    margin-top:3em;
    overflow:auto;
    float:left;
+   display:block;
 }
 
-div.tile .icon
+a.tile .icon
 {
    text-align:center;
    padding:1em;
 }
 
-div.tile .summary
+a.tile .summary
 {
    overflow:auto;
    padding:1em;
