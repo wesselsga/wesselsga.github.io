@@ -66,17 +66,16 @@ div.tile
    background:#f4f4f4;
    margin-top:3em;
    overflow:auto;
+   float:left;
 }
 
 div.tile .icon
 {
-   float:left;
+   text-align:center;
 }
 
 div.tile .summary
 {
-   float:left;
-   margin-left:2em;
 }
 
 
