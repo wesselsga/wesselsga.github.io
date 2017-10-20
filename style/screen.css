@@ -62,12 +62,15 @@ hr
 
 a.tile
 {
-   background:#f4f4f4;
    margin-top:3em;
    overflow:auto;
    float:left;
    display:block;
    color:#333 !important;
+
+   background-color: #f5f5f5;
+   border: 1px solid #ccc;
+   border-radius: 4px;
 }
 
 a.tile:link, a.tile:visited, a.tile:hover, a.tile:active  {
