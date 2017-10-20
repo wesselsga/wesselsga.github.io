@@ -50,3 +50,5 @@ void capture_screen()
    DeleteObject(bmp);
 }
 ```
+
+... and to add to the plethora of utilities available to do this - it is now integrated in ColorLens as well by pressing `Ctrl+F10`.
