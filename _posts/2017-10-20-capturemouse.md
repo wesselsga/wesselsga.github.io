@@ -51,4 +51,4 @@ void capture_screen()
 }
 ```
 
-... and to add to the plethora of utilities available to do this - it is now integrated in ColorLens as well by pressing `Ctrl+F10`.
+... and to add to the plethora of utilities available to do this - it is now integrated in [ColorLens](/projects/2017/10/18/colorlens.html) as well by pressing `Ctrl+F10`.
