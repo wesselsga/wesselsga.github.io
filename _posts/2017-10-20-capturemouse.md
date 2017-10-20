@@ -1,6 +1,14 @@
+---
+layout: default
+title: Capture Windows Desktop with the Mouse Cursor
+category: Dev
+---
 
+# Capture Windows Desktop with the Mouse Cursor #
 
+Something annoying about Windows - everytime you use the Print Screen key it captures the desktop image but hides the mouse cursor.  For me, this is fine maybe 50% of the time - often I want the mouse cursor included in the image capture.  Sure, there are plenty of tools available to do this ... but I was curious how hard it would be to just do it.
 
+Here's a old-school Win32 function that should capture the desktop and draw the mouse cursor back in:
 
 ```cpp
 void capture_screen()
