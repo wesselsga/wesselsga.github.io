@@ -33,9 +33,15 @@ void capture_screen()
    GetCursorInfo(&cinfo);
    if (cinfo.hCursor && (cinfo.flags & CURSOR_SHOWING)) 
    { 
-      DrawIcon(dc, cinfo.ptScreenPos.x, cinfo.ptScreenPos.y, (HICON)cinfo.hCursor);
+      // get the cursor's hotspot to compensate draw position
+		ICONINFO iinfo;
+		if (GetIconInfo((HICON)cinfo.hCursor, &iinfo))
+		{
+			int x = cinfo.ptScreenPos.x - iinfo.xHotspot;
+			int y = cinfo.ptScreenPos.y - iinfo.yHotspot;
+			DrawIcon(dc, x, y, (HICON)cinfo.hCursor);
+		}
    }
-
    // copy the bitmap to the clipboard
    if (OpenClipboard(nullptr))
    {
