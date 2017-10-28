@@ -6,6 +6,8 @@ category: Dev
 
 # FFmpeg Cookbook #
 
+<div class="date">{{ page.date | date: "%-d %B %Y"}}</div>
+
 My personal scratch pad for ffmpeg tasks that I use.  Seems like everytime I need to convert some video...I end up googling for the same thing over and over again.
 
 ### 1. Convert a video to H.264 (in MP4) ###
