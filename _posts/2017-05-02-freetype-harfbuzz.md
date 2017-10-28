@@ -6,6 +6,8 @@ category: Dev
 
 # Build freetype and harfbuzz as Windows DLLs #
 
+<div class="date">{{ page.date | date: "%-d %B %Y"}}</div>
+
 Here is a quick guide for building both [FreeType](https://www.freetype.org/) and [Harfbuzz](https://www.freedesktop.org/wiki/Software/HarfBuzz/) as shared libraries (DLLs) on Windows.  For this guide, only the x64 version will be built - although the instructions should also work for x86.
 
 For the following I'm using Visual Studio 2017 Community Edition.
