@@ -8,6 +8,8 @@ category: Misc
 
 <div class="date">{{ page.date | date: "%-d %B %Y"}}</div>
 
+If you cut the cord and drop cable - streaming services such as Netflix and Amazon Prime are great alternatives to replacing TV shows.  However, live sports like NFL games and College football are hard to replace without an HDTV antenna.
+
 ![alt text][antenna_1]
 
 ![alt text][antenna_2]
