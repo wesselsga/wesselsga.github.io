@@ -12,7 +12,11 @@ If you cut the cord and drop cable - streaming services such as Netflix and Amaz
 
 ![alt text][antenna_1]
 
+Mounting an antenna in your attic is the easy part.  Getting the coax cable to run from the antenna to inside the house is the harder part.
+
 ![alt text][antenna_2]
+
+Once you get the coax into the house, it's likely that you will need to amplify the signal to route to multiple TV locations.
 
 ![alt text][antenna_3]
 
