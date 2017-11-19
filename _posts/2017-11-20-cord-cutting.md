@@ -12,6 +12,8 @@ If you cut the cord and drop cable - streaming services such as Netflix and Amaz
 
 ![alt text][antenna_1]
 
+It's important to mount the antenna in a way that makes it possible to rotate it.
+
 Mounting an antenna in your attic is the easy part.  Getting the coax cable to run from the antenna to inside the house is the harder part.
 
 ![alt text][antenna_2]
