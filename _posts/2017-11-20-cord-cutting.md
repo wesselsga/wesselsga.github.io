@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Cut the cord : Install an HDTV antenna in your attic
+title: Cut the cord - Install an HDTV antenna in your attic
 category: Misc
 ---
 
