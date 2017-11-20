@@ -14,6 +14,8 @@ You can buy indoor HDTV antennas - but I wanted a solution to get free, over the
 
 ![alt text][antenna_1]
 
+I bought a channel master hdtv similar to [this model](https://www.amazon.com/Channel-Master-CM-2020-Outdoor-Antenna/dp/B002ITPQOG/ref=sr_1_6?ie=UTF8&qid=1511140196&sr=8-6&keywords=channel+master+antenna&dpID=31svPXjFqWL&preST=_SX300_QL70_&dpSrc=srch).
+
 ### Point the Antenna ###
 
 It's important to mount the antenna in a way that makes it possible to rotate it (at least somewhat).  Visit the site [antennaweb.org](https://www.antennaweb.org/Address) and enter your address.  This tool will tell you where your local station towers are located.  For example, here is the station listing from my address:
@@ -40,6 +42,8 @@ Having conduit is nice, in case I want to 'fish' another cable through through t
 Once you get the coax into the house, it's likely that you will need to amplify the signal to route to multiple TV locations.  Currently, I'm using [this amplifer](https://www.amazon.com/Digital-Amplifier-Internet-Signal-Booster/dp/B001EKCGT8/ref=sr_1_3?ie=UTF8&qid=1511135965&sr=8-3&keywords=pct+amplifier) with no complaints.
 
 ![alt text][antenna_3]
+
+
 
 
 [antenna_1]:https://s3.amazonaws.com/gregwessels/posts/2017/antenna_1.jpg "Antenna"
