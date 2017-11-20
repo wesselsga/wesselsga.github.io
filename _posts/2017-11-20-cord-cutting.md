@@ -16,7 +16,7 @@ You can buy indoor HDTV antennas - but I wanted a solution to get over-the-air s
 
 ### Point the Antenna ###
 
-It's important to mount the antenna in a way that makes it possible to rotate it.  Visit the site [antennaweb.org](https://www.antennaweb.org/Address) and enter your address.  This tool will tell you where the stations towers are located.  For example, here is the station listing from my address:
+It's important to mount the antenna in a way that makes it possible to rotate it.  Visit the site [antennaweb.org](https://www.antennaweb.org/Address) and enter your address.  This tool will tell you where your local station towers are located.  For example, here is the station listing from my address:
 
 ![alt_text][antenna_web]
 
