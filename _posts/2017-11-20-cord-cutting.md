@@ -10,7 +10,7 @@ category: Misc
 
 If you cut the cord and drop cable - streaming services such as Netflix and Amazon Prime are great alternatives to replacing TV shows.  However, live sports like NFL games and College football are hard to replace without an HDTV antenna.
 
-You can buy indoor HDTV antennas - but I wanted a solution to get over-the-air signal to all my TVs using the existing coax in the house.  I also was not interested in having a hideous antenna sitting on my roof, so I chose to buy an exterior HDTV antenna - and mounted it in my attic rather that outside on the roof.
+You can buy indoor HDTV antennas - but I wanted a solution to get free, over the-air (OTA) signal to all my TVs using the existing coax already installed through the house.  I also was not interested in having a hideous antenna sitting on my roof, so I chose to buy an exterior HDTV antenna - and mounted it in my attic rather that outside on the roof.
 
 ![alt text][antenna_1]
 
