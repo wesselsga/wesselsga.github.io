@@ -14,7 +14,7 @@ You can buy indoor HDTV antennas - but I wanted a solution to get free, over the
 
 ![alt text][antenna_1]
 
-I bought a channel master hdtv similar to [this model](https://www.amazon.com/Channel-Master-CM-2020-Outdoor-Antenna/dp/B002ITPQOG/ref=sr_1_6?ie=UTF8&qid=1511140196&sr=8-6&keywords=channel+master+antenna&dpID=31svPXjFqWL&preST=_SX300_QL70_&dpSrc=srch).
+I bought a [Channel Master Outdoor TV Antenna](https://www.amazon.com/Channel-Master-CM-2020-Outdoor-Antenna/dp/B002ITPQOG/ref=sr_1_6?ie=UTF8&qid=1511140196&sr=8-6&keywords=channel+master+antenna&dpID=31svPXjFqWL&preST=_SX300_QL70_&dpSrc=srch) for around $75.
 
 ### Point the Antenna ###
 
