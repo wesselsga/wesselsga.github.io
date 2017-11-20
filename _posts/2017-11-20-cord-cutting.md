@@ -20,7 +20,7 @@ My attic has quite a bit of head-room, so I was able to fanagle a 10-foot piece 
 
 ![alt text][antenna_2]
 
-Once you get the coax into the house, it's likely that you will need to amplify the signal to route to multiple TV locations.
+Once you get the coax into the house, it's likely that you will need to amplify the signal to route to multiple TV locations.  Currently, I'm using [this amplifer](https://www.amazon.com/Digital-Amplifier-Internet-Signal-Booster/dp/B001EKCGT8/ref=sr_1_3?ie=UTF8&qid=1511135965&sr=8-3&keywords=pct+amplifier) with no complaints.
 
 ![alt text][antenna_3]
 
