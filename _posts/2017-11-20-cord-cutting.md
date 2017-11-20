@@ -10,17 +10,17 @@ category: Misc
 
 If you cut the cord and drop cable - streaming services such as Netflix and Amazon Prime are great alternatives to replacing TV shows.  However, live sports like NFL games and College football are hard to replace without an HDTV antenna.
 
-You can buy indoor HDTV antennas - but I wanted a solution to get free, over the-air (OTA) signal to all my TVs using the existing coax already installed through the house.  I wasn't interested in having a hideous antenna sitting on my roof, so I chose to buy an exterior HDTV antenna - and mounted it in my attic rather that outside on the roof.
+You can buy indoor HDTV antennas - but I wanted a solution to get free, over the-air (OTA) signal to all my TVs using the existing coax already installed through the house.  I wasn't interested in having a hideous antenna sitting on my roof, so I chose to buy an exterior HDTV antenna - and mounted it in my attic rather than outside on the roof.
 
 ![alt text][antenna_1]
 
 ### Point the Antenna ###
 
-It's important to mount the antenna in a way that makes it possible to rotate it.  Visit the site [antennaweb.org](https://www.antennaweb.org/Address) and enter your address.  This tool will tell you where your local station towers are located.  For example, here is the station listing from my address:
+It's important to mount the antenna in a way that makes it possible to rotate it (at least somewhat).  Visit the site [antennaweb.org](https://www.antennaweb.org/Address) and enter your address.  This tool will tell you where your local station towers are located.  For example, here is the station listing from my address:
 
 ![alt_text][antenna_web]
 
-While mounting the antenna - I pointed mine around 73-74 degrees to get the best signal for FOX, NBC, CBS, and ABC.  (I used a compass app on my smartphone for orientation while up in the attic)
+While mounting my antenna - I pointed it around 73-74 degrees to get the best signal for FOX, NBC, CBS, and ABC.  (I used a compass app on my smartphone for orientation while up in the attic)
 
 ### Pulling coax ###
 Mounting an antenna in your attic is the easy part.  Getting the coax cable to run from the antenna to inside the house is the harder part.
