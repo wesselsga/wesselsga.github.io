@@ -14,11 +14,13 @@ You can buy indoor HDTV antennas - but I wanted a solution to get over-the-air s
 
 ![alt text][antenna_1]
 
+### Point the Antenna ###
+
 It's important to mount the antenna in a way that makes it possible to rotate it.  Visit the site [antennaweb.org](https://www.antennaweb.org/Address) and enter your address.  This tool will tell you where the stations towers are located.  For example, here is the station listing from my address:
 
 ![alt_text][antenna_web]
 
-So, while mounting the antenna - I pointed it around 73-74 degrees to get the best signal for FOX, NBC, CBS, and ABC.  (I used a compass app on my smartphone for orientation while up in the attic)
+While mounting the antenna - I pointed mine around 73-74 degrees to get the best signal for FOX, NBC, CBS, and ABC.  (I used a compass app on my smartphone for orientation while up in the attic)
 
 ### Pulling coax ###
 Mounting an antenna in your attic is the easy part.  Getting the coax cable to run from the antenna to inside the house is the harder part.
