@@ -21,7 +21,7 @@ So, while mounting the antenna - I pointed it around 73-74 degrees to get the be
 ### Pulling coax ###
 Mounting an antenna in your attic is the easy part.  Getting the coax cable to run from the antenna to inside the house is the harder part.
 
-My attic has quite a bit of head-room, so I was able to fanagle a 10-foot piece of plastic electrical conduit through an interior wall by drilling holes through the top and bottom plates of the wall.  With this conduit in place, I was able to run coax from my attic to my utilility room located in the basement.
+My attic has quite a bit of head-room, so I was able to fanagle a 10-foot piece of plastic electrical conduit through an interior wall by drilling holes through the top and bottom plates of the wall.  With this conduit in place, I was able to run coax from my attic to my utility room located in the basement.  Having conduit is nice, in case I want to 'fish' another cable through through the wall in the future.
 
 ![alt text][antenna_2]
 
