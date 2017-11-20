@@ -32,4 +32,4 @@ Once you get the coax into the house, it's likely that you will need to amplify 
 [antenna_1]:https://s3.amazonaws.com/gregwessels/posts/2017/antenna_1.jpg "Antenna"
 [antenna_2]:https://s3.amazonaws.com/gregwessels/posts/2017/antenna_2.jpg "Conduit"
 [antenna_3]:https://s3.amazonaws.com/gregwessels/posts/2017/antenna_3.jpg "Amplifier"
-[antenna_web]:https://s3.amazonaws.com/gregwessels/posts/2017/antenna_web.jpg "Antennaweb.org"
+[antenna_web]:https://s3.amazonaws.com/gregwessels/posts/2017/antenna_web.png "Antennaweb.org"
