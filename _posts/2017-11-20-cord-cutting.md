@@ -16,7 +16,7 @@ It's important to mount the antenna in a way that makes it possible to rotate it
 
 ![alt_text][antenna_web]
 
-So, while mounting the antenna - I pointed it around 73-74 degrees to get the best signal for FOX, NBC, CBS, and ABC.
+So, while mounting the antenna - I pointed it around 73-74 degrees to get the best signal for FOX, NBC, CBS, and ABC.  (I used a compass app on my smartphone for orientation while up in the attic)
 
 Mounting an antenna in your attic is the easy part.  Getting the coax cable to run from the antenna to inside the house is the harder part.
 
