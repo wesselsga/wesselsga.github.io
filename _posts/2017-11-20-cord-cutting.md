@@ -12,7 +12,11 @@ If you cut the cord and drop cable - streaming services such as Netflix and Amaz
 
 ![alt text][antenna_1]
 
-It's important to mount the antenna in a way that makes it possible to rotate it.
+It's important to mount the antenna in a way that makes it possible to rotate it.  Visit the site [antennaweb.org](https://www.antennaweb.org/Address) and enter your address.  This tool will tell you where the stations towers are located.  For example, here is the station listing from my address:
+
+![alt_text][antenna_4]
+
+So, while mounting the antenna - I pointed it around 73-74 degrees to get the best signal for FOX, NBC, CBS, and ABC.
 
 Mounting an antenna in your attic is the easy part.  Getting the coax cable to run from the antenna to inside the house is the harder part.
 
@@ -28,3 +32,4 @@ Once you get the coax into the house, it's likely that you will need to amplify 
 [antenna_1]:https://s3.amazonaws.com/gregwessels/posts/2017/antenna_1.jpg "Antenna"
 [antenna_2]:https://s3.amazonaws.com/gregwessels/posts/2017/antenna_2.jpg "Conduit"
 [antenna_3]:https://s3.amazonaws.com/gregwessels/posts/2017/antenna_3.jpg "Amplifier"
+[antenna_web]:https://s3.amazonaws.com/gregwessels/posts/2017/antenna_web.jpg "Antennaweb.org"
