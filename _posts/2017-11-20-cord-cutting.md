@@ -29,7 +29,7 @@ Having conduit is nice, in case I want to 'fish' another cable through through t
 
 ![alt text][antenna_2]
 
-I used spray insulation (Great Stuff) to seal the opening of conduit in the attic.
+> I used spray insulation (Great Stuff) to seal the opening of conduit in the attic.
 
 ### Multiple TVs ###
 
