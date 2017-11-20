@@ -14,7 +14,7 @@ If you cut the cord and drop cable - streaming services such as Netflix and Amaz
 
 It's important to mount the antenna in a way that makes it possible to rotate it.  Visit the site [antennaweb.org](https://www.antennaweb.org/Address) and enter your address.  This tool will tell you where the stations towers are located.  For example, here is the station listing from my address:
 
-![alt_text][antenna_4]
+![alt_text][antenna_web]
 
 So, while mounting the antenna - I pointed it around 73-74 degrees to get the best signal for FOX, NBC, CBS, and ABC.
 
