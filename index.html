@@ -6,7 +6,7 @@ title: Greg Wessels
 {% assign sorted_cats = site.categories | sort %}
 {% for category in sorted_cats %}
 <h3>{{ category | first }}</h3>
-<ul style="list-style-type:none">
+<ul style="list-style-type:none; padding-left:1em">
 {% for posts in category %}
 {% for post in posts %}
 	{% if post.title %}
