@@ -1,3 +1,6 @@
 author: Greg Wessels
 
 future: true
+
+plugins:
+  - jekyll-redirect-from
