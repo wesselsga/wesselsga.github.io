@@ -107,7 +107,7 @@ ffmpeg -i "input-video" -vn -codec:a libmp3lame -b:a 256K "output.mp3"
 Remove the audio track from a file while retaining the video stream as is.
 
 ```Batchfile
-ffmpeg -i "input-video" -an -codec:a copy "output-video"
+ffmpeg -i "input-video" -an -codec:v copy "output-video"
 ```
 
 ---
