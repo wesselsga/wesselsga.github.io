@@ -102,7 +102,17 @@ ffmpeg -i "input-video" -vn -codec:a libmp3lame -b:a 256K "output.mp3"
 
 ---
 
-### 9. Concatenate (or Combine) Videos ###
+### 9. Remove audio track from a video file ###
+
+Remove the audio track from a file while retaining the video stream as is.
+
+```Batchfile
+ffmpeg -i "input-video" -an -codec:a copy "output-video"
+```
+
+---
+
+### 10. Concatenate (or Combine) Videos ###
 Got a bunch of videos from an phone or iPad?  I use this one for kids sports ... frequent hitting of start & stop record during a game will create several video files.
 I often just want 1 larger video file of the game to upload to YouTube or archive.
 
