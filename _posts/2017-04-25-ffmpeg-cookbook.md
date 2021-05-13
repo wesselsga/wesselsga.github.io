@@ -28,8 +28,8 @@ ffmpeg -i "input-video" -c:v libx264 -crf 18 -pix_fmt yuv420p -movflags +faststa
 
 ---
 
-### 3. Convert a video to uncompressed AVI ###
-Not nearly as useful as the H.264 version, but there are times when I need a video in an uncompressed format.
+### 3. Convert a video to lossless format ###
+Not nearly as useful as the H.264 version, but there are times when I need a video in an lossless format.
 
 ```Batchfile
 ffmpeg -i "input-video" -c:v rawvideo -pix_fmt bgr24 "output.avi"
@@ -40,6 +40,13 @@ If the source has an alpha channel - use a pixel format such as bgra to preserve
 ```Batchfile
 ffmpeg -i "input-video" -c:v rawvideo -pix_fmt bgra "output.avi"
 ```
+
+Another example if you want to use QTRLE (Quicktime Animation).
+
+```Batchfile
+ffmpeg -i "input-video" -c:v qtrle -pix_fmt bgra "output.mov"
+```
+
 
 
 ---
