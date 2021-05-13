@@ -65,7 +65,23 @@ ffmpeg -i "%%~nxf" -c:v libx264 -crf 18 -pix_fmt yuv420p "%%~nf.mp4"
 
 ---
 
-### 5. Trim an existing MP4 video ###
+### 5. Resize (scale) an video ###
+
+To specify both width and height:
+
+```Batchfile
+ffmpeg -i "input-video" -filter:v scale=640:320 -c copy -y "output-video"
+```
+
+To specify one dimension and preserve aspect-ratio (use -1):
+
+```Batchfile
+ffmpeg -i "input-video" -filter:v scale=640:-1 -c copy -y "output-video"
+```
+
+---
+
+### 6. Trim an existing MP4 video ###
 
 For example, to slice out part of an existing mp4 video - starting at the 1 minute mark and grab 30 seconds:
 
@@ -75,7 +91,7 @@ ffmpeg -ss 00:01:00 -i "input-video.mp4" -t 30 -c copy -avoid_negative_ts 1 -y o
 
 ---
 
-### 6. Extract all video frames as images ###
+### 7. Extract all video frames as images ###
 
 The following will dump all frames from the input video file into a subdirectory called 'frames' (in this example PNG is used; but JPG would also work)
 
@@ -87,7 +103,7 @@ Note: if using a Windows .bat file, you will need to escape the %, so the above 
 
 ---
 
-### 7. Create a video from a directory of images ###
+### 8. Create a video from a directory of images ###
 
 To create a video from a directory of images, the image files will need to be named with a pattern.  
 
@@ -99,7 +115,7 @@ ffmpeg -r 60 -f image2 -i "frames/frame_%%05d.png" -c:v libx264 -crf 18 -pix_fmt
 
 ---
 
-### 8. Extract audio track from a video file ###
+### 9. Extract audio track from a video file ###
 
 If you wish to grab just the audio track from a source and encode it as MP3:
 
@@ -109,7 +125,7 @@ ffmpeg -i "input-video" -vn -codec:a libmp3lame -b:a 256K "output.mp3"
 
 ---
 
-### 9. Remove audio track from a video file ###
+### 10. Remove audio track from a video file ###
 
 Remove the audio track from a file while retaining the video stream as is.
 
@@ -119,7 +135,7 @@ ffmpeg -i "input-video" -an -codec:v copy "output-video"
 
 ---
 
-### 10. Concatenate (or Combine) Videos ###
+### 11. Concatenate (or Combine) Videos ###
 Got a bunch of videos from an phone or iPad?  I use this one for kids sports ... frequent hitting of start & stop record during a game will create several video files.
 I often just want 1 larger video file of the game to upload to YouTube or archive.
 
