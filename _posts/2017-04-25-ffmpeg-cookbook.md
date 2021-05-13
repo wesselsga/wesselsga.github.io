@@ -44,7 +44,7 @@ ffmpeg -i "input-video" -c:v rawvideo -pix_fmt bgra "output.avi"
 Another example if you want to use QTRLE (Quicktime Animation).
 
 ```Batchfile
-ffmpeg -i "input-video" -c:v qtrle -pix_fmt bgra "output.mov"
+ffmpeg -i "input-video" -c:v qtrle -pix_fmt argb "output.mov"
 ```
 
 
